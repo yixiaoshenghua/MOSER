@@ -1,9 +1,9 @@
 # MOSER
 
-We propose the **View-conditional Markov Decision Process (VMDP)** assumption and develop a new method, the **MOdel-based SEnsor controlleR (MOSER)**, based on VMDP. MOSER jointly learns a **view-conditional world model (VWM)** to simulate the environment, a sensory policy to control the camera, and a motor policy to complete tasks. We design intrinsic rewards from the VWM without additional modules to guide the sensory policy to adjust the camera parameters.
+We propose a straightforward View-conditional Partially Observable Markov Decision Processes (VPOMDPs) assumption and develop a new method, the **MO**del-based **SE**nsor controlle**R** (**MOSER**). MOSER jointly learns a view-conditional world model (VWM) to simulate the environment, a sensory policy to control the camera, and a motor policy to complete tasks. We design intrinsic rewards from the VWM with out additional modules to guide the sensory policy to adjust the camera parameters.
 
 <p align="center">
-  <img width="80%" src="MOSER.png">
+  <img width="80%" src="MOSER_camera.png">
 </p>
 
 
